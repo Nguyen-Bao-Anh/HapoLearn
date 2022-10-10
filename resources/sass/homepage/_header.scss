@@ -1,0 +1,49 @@
+.navbar-nav {
+  justify-content: flex-end;
+}
+
+.btn-logout {
+  border: 0;
+  background-color: transparent;
+}
+
+.nav-item {
+  margin: 0 35px;
+
+  &:hover {
+    border-radius: 17px;
+    background-color: $main-color;
+  }
+}
+
+.nav-link {
+  &:hover {
+    color: white;
+  }
+
+  color: black;
+  font-weight: 600;
+}
+
+.active-menu {
+  background-color: $main-color;
+  border-radius: 17px;
+
+  .nav-link {
+    color: white !important;
+  }
+}
+
+@media (max-width: 769px) {
+  .logo-image {
+    width: 224px;
+    height: 50.81px;
+  }
+}
+
+@media (max-width: 376px) {
+  .logo-image {
+    width: 150px;
+    height: 26.75px;
+  }
+}

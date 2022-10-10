@@ -1,0 +1,32 @@
+<?php
+
+return [
+    'sort_low_to_high' => 'asc',
+    'sort_high_to_low' => 'desc',
+    'paginate' => '10',
+    'newest' => 'newest',
+    'oldest' => 'oldest',
+    'reviews' => 'Đánh giá',
+    'join' => 'Tham gia khóa học',
+    'learning' => 'Đang học',
+    'not_learning' => 'Chưa học',
+    'status' => 'Tình trạng',
+    'finish_course' => 'Kết thúc khóa học',
+    'rejoin_course' => 'Tham gia lại khóa học',
+    'learn' => 'Học',
+    'stars' => 'Sao',
+    'description_course' => 'Mô tả khóa học',
+    'learners' => 'Số người học',
+    'lessons' => 'Số bài học',
+    'times' => 'Thời gian',
+    'price' => 'Giá',
+    'reply' => 'Trả lời',
+    'edit' => 'Sửa',
+    'delete' => 'Xóa',
+    'send' => 'Gửi',
+    'message' => 'Đánh giá',
+    'other_courses' => 'Các khóa học khác',
+    'view_all_courses' => 'Xem tất cả khóa học',
+    'review_date' => 'F j, Y',
+    'course_number_home' => '3'
+];
